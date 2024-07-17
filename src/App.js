@@ -35,7 +35,7 @@ function App() {
       <Route  path="/Moviespopular" element={<Movies movie={popularMovies}/>} />
       <Route  path="/Movieslatest" element={<Movies movie={latestMovies}/>} />
       <Route  path="/Moviescomedy" element={<Movies movie={comedyMovies}/>} />
-      <Route  path="/Details" element={<Details />} />
+      {/* <Route  path="/Details" element={<Details />} /> */}
        </Routes>
     </Context.Provider>
     </BrowserRouter>
